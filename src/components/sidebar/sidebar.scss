@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+
+    &-item{
+        padding: 12px;
+        border-radius: 12px;
+        cursor: pointer;
+
+        &.active{
+            background: #5FBF77;
+            color: #fff;
+        }
+    }
+}
